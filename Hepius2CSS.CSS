@@ -1,0 +1,180 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    text-align: left;
+    color: white;
+    height: 15vh;
+}
+
+.navbar {
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+}
+.navbar p {
+	display: inline-block;
+	color: #004063;
+	font-size: 18px;
+}
+.navbar img {
+	height: 20vh;
+
+}
+.navigation {
+}
+
+.navbar a {
+	font-size: 2vh;
+  display: inline-block;
+  color: #004063;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+}
+
+.navbar a:hover {
+  background-color: #004063;
+  color: #fff;
+}
+
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+footer {
+ 	text-align: center;
+ 	background: #004063;
+
+}
+
+footer a:hover {
+	background-color: #fff;
+	color: #004063;
+}
+
+footer p, footer a {
+	font-size: 2vh;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 14px 10px;
+}
+.headerA {
+    padding: 20px;
+    text-align: left;
+    background: #A8DDFF;
+    color: #000000;
+}
+
+.imgA {
+	
+}
+.main {
+	padding: 0;
+	height: 60vh;
+	background-image: url("https://www.vwthemesdemo.com/vw-medical-care-pro/wp-content/themes/vw-medical-care-pro/assets/images/slides/slide1.jpg");
+	background-position: 50% 10%; 
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.main-text {
+	margin-top: 5vh;
+	padding: 1vh;
+	margin-left: 5vw;
+	width: 42vw;
+	text-align: center;
+}
+.main h1 {
+	color: #0A71D8;
+	font-size: 80px;
+	font-weight: 600;
+	margin: 0;
+}
+.main p {
+	font-size: 20px;
+	width: 40vw;
+	font-weight: 400;
+	color: #02182B;
+}
+.table-element1 {
+	background: #0A71D8;
+}
+.table-element2 {
+	background: #50ACFC;
+}
+.table {  
+    text-align: center;
+	display: flex;
+	margin: 0 10%;
+	margin-bottom: 100px;
+}
+.table div {
+	box-sizing: content-box;
+	padding: 25px;
+	width: 33%;
+}
+.table h1 {
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+}
+.table p{
+	font-size: 16px;
+	color: white;
+}
+
+.table img {
+	width: 125px;
+	height: 125px;
+}
+.news-p {
+	margin-left: 10%;
+	font-size: 20px;
+	color: #004063;
+}
+.news-hr {
+	margin: 0 10% 25px 10%;
+	border: 1px solid #004063;
+
+}
+.corona-ad {
+	height: auto;
+	margin: 0 10%;
+	display: flex;
+	min-height: 20vh;
+}
+.corona-text-container {
+	flex: 30%;
+	background: #0A71D8;
+	color: white;
+	display: flex;
+	align-items: flex-start;
+}
+.corona-text {
+	margin: 25px;
+	line-height: 28px;
+}
+.corona-picture {
+	flex: 70%;
+	background-image: url("https://www.stlucianewsonline.com/wp-content/uploads/2020/01/CORONAVIRUS.jpg");
+	background-size: cover;
+	background-position: left center;
+}
+.corona-text a {
+	color: white;
+}

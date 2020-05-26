@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Hepius</title>
+    <link rel="stylesheet" href="Hepius2CSS.CSS"/>
+	</head>
+    
+<body>
+    
+	<div class="headerA">
+		<h1>About Us Page</h1>
+			<p>A little introduction to our team.</p>
+	</div>
+	
+	<div class="navbar">
+		<a href="Hepius2.html">Main Page</a>
+	</div>
+	
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<img class="imgA" id="image" src="AboutUs1.jpg">
+					<div class="container">
+					<h2></h2>
+					<p class="title">CEO & Founder</p>
+					<p></p>
+					<p></p>
+			</div>
+		</div>
+	</div>
+    
+	<script>
+	var imageSources = ["AboutUs1.jpg", "AboutUs2.jpg"]
+	var index = 0;
+		setInterval (function(){
+	if (index === imageSources.length) {
+		index = 0;
+	}
+	document.getElementById("image").src = imageSources[index];
+			index++;
+		} , 2000);
+</script>
+	
+</body>
+
+</html>
